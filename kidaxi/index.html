@@ -245,8 +245,8 @@ Gida San Nic Ltd»  находится в городе Бурса (Респуб�
         </div>
         <div class="become_partner">
             <div class="container">
-                <div class="wrap-become_partner">
-                    <a href="#" class="become_partner-button">стать нашим партнером</a>
+                <div class="wrap-become_partner text-center">
+                    <a class="become_partner-button" data-fancybox="" data-src="#become_partner" href="javascript:;">стать нашим партнером</a>
                 </div>
             </div>
         </div>
@@ -512,6 +512,39 @@ Gida San Nic Ltd»  находится в городе Бурса (Респуб�
             <input class="field" type="tel-hidden" placeholder="Телефон">
             <a class="call-hidden" href="">Заказать звонок</a>
         </form>
+    </div>
+
+    <div class="row" style="display: none;" id="become_partner">
+      <form class="become_partner_form">
+      <span class="title-reviews">Форма для сотрудничества</span>      
+        <div class="form-group">
+          <label for="exampleTown">Укажите Ваш город</label>
+          <input type="text" class="form-control" id="exampleTown" value="" placeholder="Город">
+        </div>
+        <div class="form-group">
+          <label for="exampleCompanyName">Название Вашей компании</label>
+          <input type="text" class="form-control" id="exampleCompanyName" value="" placeholder="Компания">
+        </div>
+        <div class="form-group">
+          <label for="exampleName">Ваше имя</label>
+          <input type="text" class="form-control" id="exampleName" value="" placeholder="Имя" required>
+        </div>
+        <div class="form-group">
+          <label for="exampleEmail">Ваш e-mail</label>
+          <input type="text" class="form-control" id="exampleEmail" value="" placeholder="E-mail" required>
+        </div>
+        <div class="form-group">
+          <label for="examplePhone">Ваш телефон</label>
+          <input type="text" class="form-control" id="examplePhone" value="" placeholder="Телефон" required>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+          <label class="form-check-label" for="exampleCheck1">я согласен с условиями <a href="#">Публичной оферты</a></label>
+        </div>
+        <div class="text-center become_partner_submit">
+          <button type="submit" class="btn btn-primary">Отправить заявку</button>
+        </div>
+      </form>
     </div>
     
     <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
