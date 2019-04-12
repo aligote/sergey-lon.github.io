@@ -59,6 +59,7 @@ body {
     position: relative;
     margin-left: 0px;
     padding: 11px 0px 0px 0px ;
+    font-size:13px;
 }
 
 .tel:before {
@@ -92,6 +93,7 @@ body {
     position: relative;
     margin-left: 0px;
     padding: 11px 0px 0px 0px ;
+    font-size:13px;
 }
 
 .email:before {
@@ -107,7 +109,7 @@ body {
 .wrap-header {
     display: flex;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 13px;
     color: #4a4848;
 }
 
@@ -135,6 +137,7 @@ body {
     font-style: italic;
     padding-top: 8px;
     padding-left: 5px;
+    margin:0;
 }
 
 .request {
@@ -145,9 +148,10 @@ body {
     position: relative;
     margin-left: 15px;
     padding-top: 11px;
-    text-decoration: underline #fbbcb1;
+    text-decoration: none;
+    border-bottom: 1px dashed #fbbcb1;
 }
-
+.request:hover {text-decoration: none; border-bottom: none;}
 
 .request:before {
     content: '';
@@ -283,7 +287,7 @@ body {
     top: 17px;
 }
 
-.navbar {position:absolute; top:0; width:100%; display:none;}
+.navbar {position:fixed; top:0; width:100%; display:none; z-index:1;}
 #navbarTogglerDemo03 {position:fixed; width:300px; z-index:1; background:#F1F0ED; left:-300px; transition: .3s ease-in-out; top: 0; height: 100%; padding:20px; opacity:1; display:block;}
 #navbarTogglerDemo03.show {transform: translateX(100%);}
 .navbar-close {
@@ -295,12 +299,22 @@ body {
 
 .banner {
     margin-top: 0;
-    min-height: 150px;
-    padding: 60px 0;
-    background: url(../img/banner.png) no-repeat center center;
+    padding: 0;
+    /*background: url(../img/banner.png) no-repeat center center;*/
     text-align: center;
     background-size: cover;
 }
+#carouselbanner .carousel-item{
+  min-height: 250px;
+}
+.banner-img {background-position: center center; background-repeat: no-repeat; min-height:250px; background-size:cover; width:100%; display:flex;}
+.banner-img .container {align-self:center;}
+.banner1 {background-image: url("../img/banner.png");}
+.banner2 {background-image: url("../img/banner.png");}
+.banner3 {background-image: url("../img/banner.png");}
+
+#carouselbanner  .carousel-indicators li {background-color: rgba(231, 3, 255, 0.5)}
+#carouselbanner .carousel-indicators .active {background-color: #fff;}
 
 .wrap-banner {
     font-size: 42px;
@@ -999,7 +1013,7 @@ footer {
     width: 100%;
     padding: 30px 30px 15px 30px;
     background: #FFF;
-    z-index: 1;
+    z-index: 16; /* li indicators 15 %$# */
     display:none;
 }
 
