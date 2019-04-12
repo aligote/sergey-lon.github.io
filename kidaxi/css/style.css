@@ -283,14 +283,15 @@ body {
     top: 17px;
 }
 
-.navbar {position:fixed; top:0; width:100%; display:none;}
-#navbarTogglerDemo03 {position:fixed; width:300px; z-index:1; background:#F1F0ED; left:-300px; transition: .3s ease-in-out; top: 0; overflow:hidden; height: 100%; padding:20px;}
+.navbar {position:absolute; top:0; width:100%; display:none;}
+#navbarTogglerDemo03 {position:fixed; width:300px; z-index:1; background:#F1F0ED; left:-300px; transition: .3s ease-in-out; top: 0; height: 100%; padding:20px; opacity:1; display:block;}
 #navbarTogglerDemo03.show {transform: translateX(100%);}
 .navbar-close {
   float:right;
   font-size: 28px;
   line-height: 1;
 }
+
 
 .banner {
     margin-top: 0;
