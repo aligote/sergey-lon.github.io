@@ -44,16 +44,20 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.wrap-header-left {
+.header {background:#281567;}
+
+.wrap-header-right {
     padding-left: 40px;
     width: 50%;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
 }
 
-.wrap-header-left p {
-    font-weight: 500;
-}
+.wrap-header-right a {padding: 5px 10px; color: #fff;}
+.wrap-header-right a:first-child {padding-left:35px;}
+.wrap-header-right span {padding:5px; color: #fff;}
+.icn_enter {position:relative;}
+.icn_enter:before {content: ''; position: absolute; background: url(../img/icn_enter.png) no-repeat 0; width: 18px; height: 18px; left: -25px; top: 0;}
 
 .tel {
     position: relative;
@@ -120,23 +124,25 @@ body {
 
 .wrap-header {
     display: flex;
-    font-weight: 500;
-    font-size: 13px;
+    font-size: 16px;
     color: #4a4848;
 }
 
-.wrap-header-right ul{
+.wrap-header-left ul{
     display: flex;
     justify-content: space-between;
+    margin: 0;
 }
 
-.wrap-header-right a {
-    color: #4a4848;
+.wrap-header-left a {
+    color: #fff;
+    padding: 5px 10px;
 }
+.header a:hover {background:#6f54c6;}
 
-.wrap-header-right {
-    width: 50%;
-    padding: 11px 0px 0px 80px;
+.wrap-header-left {
+    width: 75%;
+    padding: 0 10px;
 }
 
 .wrap-logo {
@@ -325,7 +331,8 @@ body {
 .banner2 {background-image: url("../img/banner.png");}
 .banner3 {background-image: url("../img/banner.png");}
 
-#carouselbanner  .carousel-indicators li {background-color: rgba(231, 3, 255, 0.5)}
+#carouselbanner  .carousel-indicators li {background-color: rgba(231, 3, 255, 0.5); width:20px; height:20px; border-radius: 50%;}
+#carouselbanner  .carousel-indicators li:hover {cursor:pointer;}
 #carouselbanner .carousel-indicators .active {background-color: #fff;}
 
 .wrap-banner {
@@ -1193,17 +1200,11 @@ footer {
     .advantage-item {
         padding-right: 0;
     }
-    .wrap-header-right {
-        padding: 11px 0px 0px 40px;
-    }
 
     .schedule:before {
         left: -25px;
     }
 
-    .wrap-header-left {
-        padding-left: 27px;
-    }
     .wrap-header {
         font-size: 14px;
     }
@@ -1284,10 +1285,10 @@ footer {
         flex-wrap: wrap;
     }
     .wrap-header-left {
-        width: 100%;
+        width: 75%;
     }
     .wrap-header-right {
-        width: 100%;
+        width: 25%;
     }
     .wrap-logo p {
         font-size: 16px;
