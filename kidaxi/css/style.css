@@ -728,13 +728,20 @@ body {
 .become_partner_submit {padding-top:20px;}
 
 .title-reviews{
-    font-size: 50px;
+    font-size: 40px;
     font-family:'NautilusPompilius';
 }
 
 .wrap-reviews-certificates {
     padding: 70px 0;
     display: flex;
+}
+
+.reviews-control-color-left {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.reviews-control-color-right {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
 .name {
@@ -783,8 +790,7 @@ body {
 }
 
 .comment {
-    margin-top: 22px;
-    font-size: 21px;
+    font-size: 16px;
 }
 
 .further{
@@ -796,9 +802,11 @@ body {
 }
 
 .wrap-comments-suggestions {
-    border: #c6d3ea 1px solid;
-    padding: 25px 50px 0 25px;
-    margin-right: 10px;
+    padding: 25px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: #8b7bcd;
+    width: 75%;
 }
 
 .title-reviews {
@@ -1518,13 +1526,14 @@ footer {
     .about_company-title {
         font-size: 34px;
     }
-    .wrap-about_company-left img {
+    .wrap-about_company-left {
         display: none;
     }
     .wrap-about_company-text {
         padding-top: 20px;
         flex-wrap: wrap;
     }
+    .wrap-about_company-right{width: 100%;}
     .wrap-about_company-right img {
         display: none;
     }
