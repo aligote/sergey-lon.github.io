@@ -646,15 +646,14 @@ body {
 
 .read_more {
   color: #f66543;
-  font-size: 21px;
+  font-size: 16px;
   text-transform: uppercase;
-  font-weight: 500;
-  width: 350px;
   text-align: center;
-  line-height: 59px;
+  line-height: 1;
   margin-bottom: 20px;
   border: 4px #f66543 solid;
   font-weight: bold;
+  padding: 20px 55px;
 }
 
 .read_more:hover {
@@ -671,7 +670,7 @@ body {
     padding: 40px 0 0;
 }
 .wrap-about_company-left, .wrap-about_company-right {width: 50%; text-align:center;}
-.wrap-about_company-left p, .wrap-about_company-right p {text-align:left;}
+.wrap-about_company-left p, .wrap-about_company-right p {text-align:left; text-indent: 20px;}
 .wrap-about_company-left {align-self: flex-end;}
 .wrap-about_company-right {padding-left:20px;}
 
@@ -680,7 +679,7 @@ body {
 }
 .wrap-about_company-fabrik {
     padding: 20px;
-    margin-bottom: 1px;
+    margin-bottom: 30px;
     background: url("../img/3.png") 100% 100% no-repeat #f6b932;
 }
 .wrap-about_company-fabrik .read_more {
@@ -690,16 +689,28 @@ body {
 }
 
 .become_partner {
-    background: #f6b932;
+    background-color: #f6b932;
     padding: 15px 0;
+    background: url("../img/bg_partner.png") no-repeat top center;
+}
+
+.wrap-become_partner p {margin:0;}
+.wrap-become_partner span {
+    vertical-align: middle;
+    font-size: 56px;
+    display: inline-block;
+    line-height: 1;
 }
 
 .become_partner-button {
     color: #fff;
     font-size: 15px;
     text-transform: uppercase;
-    font-weight: 500;
-    background: #6a46de;
+    font-weight: bold;
+    border-width: 3px;
+    border-color: #f66543;
+    border-style: solid;
+    background-color: #f66543;
     text-align: center;
     line-height: 1;
     margin: 0 auto;
@@ -709,7 +720,8 @@ body {
 
 .become_partner-button:hover {
     color: #fff;    
-    background: #4728ad;
+    background: none;
+    text-decoration:none;
 }
 
 .become_partner_form {padding:40px;}
