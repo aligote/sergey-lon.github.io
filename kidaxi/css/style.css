@@ -328,14 +328,17 @@ body {
 }
 
 .menu-list:before {
-    content: '';
+    content: '◆';
     position: absolute;
-    background: url(../img/1.png) no-repeat top left;
     width: 11px;
     height: 11px;
     left: 20px;
-    top: 17px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 25px;
 }
+
+
 
 .navbar {position:fixed; top:0; width:100%; display:none; z-index:1;}
 #navbarTogglerDemo03 {position:fixed; width:300px; z-index:1; background:#F1F0ED; left:-300px; transition: .3s ease-in-out; top: 0; height: 100%; padding:20px; opacity:1; display:block;}
@@ -389,7 +392,29 @@ body {
     box-sizing: border-box;
     display: flex;
     align-items: center;
+    position:relative;
+}
 
+.advantage-item:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+.advantage-item:hover .advantage-popup {
+  display: block;
+}
+
+.advantage-popup {
+  content: '';
+  position: absolute;
+  left: 20%;
+  bottom: -50%;
+  z-index: 1;
+  background: rgba(255,255,230,0.9);
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  display: none;
 }
 
 .advantage-item_icon {
@@ -513,8 +538,8 @@ body {
 .wrap-bottom-left2 {
     width: 301px;
     height: 452px;
-    height: 452px;
     position: relative;
+    margin-top: 10px;
 }
 
 .wrap-bottom-left2 span {
@@ -603,7 +628,7 @@ body {
 .about_company-title {
     text-align: center;
     font-family:'NautilusPompilius';
-    font-size: 50px;
+    font-size: 40px;
 }
 
 @font-face{
@@ -612,7 +637,7 @@ body {
 }
 
 .wrap-about_company-text span {
-    font-size: 21px;
+    font-size: 13px;
 }
 
 .wrap-about_company-text {
@@ -620,49 +645,48 @@ body {
 }
 
 .read_more {
-    color: #fff;
-    font-size: 21px;
-    text-transform: uppercase;
-    font-weight: 500;
-    background: #f66543;
-    width: 350px;
-    height: 56px;
-    text-align: center;
-    line-height: 59px;
-    margin-top: 0px;
+  color: #f66543;
+  font-size: 21px;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 350px;
+  text-align: center;
+  line-height: 59px;
+  margin-bottom: 20px;
+  border: 4px #f66543 solid;
+  font-weight: bold;
+}
+
+.read_more:hover {
+  background: #f66543;
+  color:#fff;
+  text-decoration:none;
 }
 
 .about_company{
     background: #f5f4ef;
 }
 
-.wrap-about_company-left img {
-    -webkit-box-shadow: 2px 2px 6px 3px rgba(181, 181, 181, 1);
-    -moz-box-shadow: 2px 2px 6px 3px rgba(181, 181, 181, 1);
-    box-shadow: 2px 2px 6px 3px rgba(181, 181, 181, 1);
-}
-
-.wrap-about_company-right img {
-    margin-top: 30px;
-    -webkit-box-shadow: 0px 0px 13px 0px rgba(128,128,128,1);
-    -moz-box-shadow: 0px 0px 13px 0px rgba(128,128,128,1);
-    box-shadow: 0px 0px 13px 0px rgba(128,128,128,1);
-}
-
 .wrap-about_company {
-    padding: 70px 0px;
+    padding: 40px 0 0;
 }
+.wrap-about_company-left, .wrap-about_company-right {width: 50%; text-align:center;}
+.wrap-about_company-left p, .wrap-about_company-right p {text-align:left;}
+.wrap-about_company-left {align-self: flex-end;}
+.wrap-about_company-right {padding-left:20px;}
 
 .wrap-about_company-text {
     padding-top: 40px;
 }
-
-.wrap-about_company-left span{
-    margin: 25px 0px 45px 0px;
+.wrap-about_company-fabrik {
+    padding: 20px;
+    margin-bottom: 1px;
+    background: url("../img/3.png") 100% 100% no-repeat #f6b932;
 }
-
-.wrap-about_company-right span{
-    margin-bottom: 45px;
+.wrap-about_company-fabrik .read_more {
+  color:#000;
+  border-color: #000;
+  margin-bottom:0;
 }
 
 .become_partner {
@@ -1433,6 +1457,10 @@ footer {
     }
     .wrap-top-left-top {
         flex-wrap: wrap;
+    }
+    
+    .wrap-products a {
+      width:100%;
     }
     .wrap-products img {
         min-height: 50%;
