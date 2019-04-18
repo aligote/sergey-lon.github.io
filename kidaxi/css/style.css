@@ -784,6 +784,7 @@ body {
 
 .comments-suggestions {
     width: 50%;
+    height:361px;
 }
 
 .name-date {
@@ -1032,21 +1033,28 @@ body {
 
 
 .subscribe {
-    background: #f6b932;
-    padding: 70px 0;
+    background: url("../img/bg_partner.png") repeat top center #f6b932;
+    padding: 40px 0;
 }
 
 .subscribe-button {
-    color: #fff;
-    font-size: 21px;
+    color: #000;
+    border: 4px #000 solid;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 500;
-    background: #6a46de;
     width: 240px;
     height: 50px;
     text-align: center;
-    line-height: 51px;
-    display: block;
+    line-height: 47px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.subscribe-button:hover {
+  background: #f66543;
+  border: 4px #f66543 solid;
+  color: #fff;
+  text-decoration:none;
 }
 
 .wrap-subscribe input {
@@ -1061,12 +1069,16 @@ body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    display: inline-block;
 }
 
 .wrap-subscribe p {
-    font-size: 21px;
-    font-weight: 500;
-    padding-top: 13px;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
 }
 
 input::-webkit-input-placeholder {color: #000;}
@@ -1075,8 +1087,7 @@ input:-moz-placeholder           {color:#000;}
 input:-ms-input-placeholder      {color:#000;}
 
 .wrap-subscribe{
-    display: flex;
-    justify-content: space-between;
+  text-align: center;
 }
 
 .wrap-footer-top1 {
@@ -1346,6 +1357,7 @@ footer {
     }
     .comments-suggestions {
         width: 100%;
+        height: unset;
     }
     .menu-info li {
         padding: 10px 40px 10px 40px;
@@ -1596,6 +1608,7 @@ footer {
     }
     .wrap-footer-top1 {width: 50%;}
     .wrap-footer-top3 {width: 50%;}
+    .wrap-subscribe input {width:100%; margin-bottom:20px;}
 }
 
 
