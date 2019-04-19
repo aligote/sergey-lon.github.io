@@ -27,7 +27,7 @@
                         </ul>
                     </div>
                     <div class="wrap-header-right">
-                        <a href="#" ><i class="icn_enter"></i>Вход</a><span> | </span><br>
+                        <a href="#" data-fancybox="" data-src="#enter_reg" href="javascript:;"><i class="icn_enter"></i>Вход</a><span> | </span><br>
                         <a href="#" data-fancybox="" data-src="#reg" href="javascript:;">Регистрация</a>
                     </div>
                 </div>
@@ -606,7 +606,39 @@
         </div>
       </form>
     </div>
-    
+
+    <div class="row" style="display: none;" id="enter_reg">
+      <form action="" class="enter_reg_form">
+      <span class="title-reviews">Вход в аккаунт</span>
+        <div class="form-group">
+          <label for="enterEmailPhone">E-mail или телефон</label>
+          <input type="text" class="form-control" id="enterEmailPhone" value="" placeholder="Введите email или телефон" required>
+        </div>
+        <div class="form-group">
+          <label for="enterPass">Пароль</label>
+          <input type="text" class="form-control" id="enterPass" value="" placeholder="Введите пароль" required>
+        </div>
+        <a href="#" class="enter_reg_form_forget">Забыли пароль?</a>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="enterSaveme">
+          <label class="form-check-label" for="enterSaveme">Запомнить меня</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="enterCheck1" checked>
+          <label class="form-check-label" for="enterCheck1">Согласен на обработку персональных данных, с <a href="#">договором публичной оферты</a> и <a href="#">политикой конфиденциальности</a> ознакомлен и принимаю</label>
+        </div>
+        <div class="text-left enter_submit">
+          <button type="submit" class="btn btn-primary">Войти</button>
+        </div>
+      </form>
+      <div class="enter_social">
+        <span class="enter_social-title">Войти с помощью соцсетей:</span>
+        <a href="#"><img src="" alt="Vk"></a>
+        <a href="#"><img src="" alt="Fc"></a>
+        <a href="#"><img src="" alt="Ok"></a>
+      </div>
+    </div>
+
     <div class="row" style="display: none;" id="reg">
       <form action="" class="reg_form">
         <span class="title-reviews">Регистрация</span>
@@ -623,28 +655,28 @@
           <input type="text" class="form-control" id="regCompanyName" value="" placeholder="Введите название компании">
         </div>
         <div class="form-group">
-          <label for="exampleEmail">E-mail</label>
-          <input type="text" class="form-control" id="exampleEmail" value="" placeholder="Введите E-mail" required>
+          <label for="regEmail">E-mail</label>
+          <input type="text" class="form-control" id="regEmail" value="" placeholder="Введите E-mail" required>
         </div>
         <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck2" checked>
-          <label class="form-check-label" for="exampleCheck2">Подписаться на новости</label>
+          <input type="checkbox" class="form-check-input" id="regCheck2" checked>
+          <label class="form-check-label" for="regCheck2">Подписаться на новости</label>
         </div>
         <div class="form-group">
-          <label for="examplePhone">Телефон</label>
-          <input type="text" class="form-control" id="examplePhone" value="" placeholder="Введите телефон" required>
+          <label for="regPhone">Телефон</label>
+          <input type="text" class="form-control" id="regPhone" value="" placeholder="Введите телефон" required>
         </div>
         <div class="form-group">
-          <label for="examplePhone">Пароль</label>
-          <input type="text" class="form-control" id="examplePhone" value="" placeholder="Придумайте пароль" required>
+          <label for="regPass">Пароль</label>
+          <input type="text" class="form-control" id="regPass" value="" placeholder="Придумайте пароль" required>
         </div>
         <div class="form-group">
-          <label for="examplePhone">Повторить пароль</label>
-          <input type="text" class="form-control" id="examplePhone" value="" placeholder="Повторите пароль" required>
+          <label for="regPhone">Повторить пароль</label>
+          <input type="text" class="form-control" id="regPhone" value="" placeholder="Повторите пароль" required>
         </div>
         <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
-          <label class="form-check-label" for="exampleCheck1">Согласен на обработку персональных данных, с <a href="#">договором публичной оферты</a><br> и <a href="#">политикой конфиденциальности</a> ознакомлен и принимаю</label>
+          <input type="checkbox" class="form-check-input" id="regCheck1" checked>
+          <label class="form-check-label" for="regCheck1">Согласен на обработку персональных данных, с <a href="#">договором публичной оферты</a><br> и <a href="#">политикой конфиденциальности</a> ознакомлен и принимаю</label>
         </div>
         <div class="text-center reg_submit">
           <button type="submit" class="btn btn-primary">Зарегистрироваться</button>
