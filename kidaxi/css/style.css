@@ -60,6 +60,20 @@ body {
 .icn_enter {position:relative;}
 .icn_enter:before {content: ''; position: absolute; background: url(../img/icn_enter.png) no-repeat 0; width: 18px; height: 18px; left: -25px; top: 0;}
 
+.reg_form {padding: 40px;}
+.reg_submit {padding-top: 20px;}
+.reg_submit .btn-primary  {
+    background-color: #f7b932;
+    border-color: #f7b932;
+    color: #000;
+  }
+.reg_submit .btn-primary:hover, .reg_submit .btn-primary:active, .reg_submit .btn-primary:focus {
+    background-color: #f66543;
+    border-color: #f66543;
+    color: #fff;
+    box-shadow:none;
+}
+
 .tel {
     position: relative;
     margin-left: 0px;
@@ -743,10 +757,11 @@ body {
   color:#000;
 }
 
-.become_partner_form .btn-primary:hover {
+.become_partner_form .btn-primary:hover, .become_partner_form .btn-primary:active, .become_partner_form .btn-primary:focus {
   background-color: #f66543;
   border-color: #f66543;
   color:#fff;
+  box-shadow:none;
 }
 
 .become_partner_form {padding:40px;}
