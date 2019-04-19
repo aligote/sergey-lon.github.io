@@ -516,6 +516,10 @@ body {
 .wrap-products a {
     overflow: hidden;
 }
+.wrap-products a:hover {
+    opacity:0.8;
+}
+
 .wrap-products img {
     width: 100%;
     min-height: 100%;
@@ -824,7 +828,7 @@ body {
     text-align:right;
 }
 .further a {color: #fff; border-bottom: #fff 1px solid; text-transform:uppercase;}
-.further a:hover {text-decoration:none;}
+.further a:hover {color: #000; border-bottom: #000 1px solid; text-decoration:none;}
 
 .wrap-comments-suggestions {
     padding: 25px;
@@ -888,6 +892,11 @@ body {
 .wrap-certificates {
     padding: 10px;
     margin-left: 10px;
+}
+
+.wrap-certificates-img a:hover {
+  opacity:0.8;
+  filter: drop-shadow(1px 1px 1px #000)
 }
 
 .wrap-certificates-img img{
