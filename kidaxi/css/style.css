@@ -733,6 +733,22 @@ body {
     text-decoration:none;
 }
 
+.fancybox-close-small:after{
+  background: #6a46de;
+  color:#fff;
+}
+.become_partner_form .btn-primary {
+  background-color: #f7b932;
+  border-color: #f7b932;
+  color:#000;
+}
+
+.become_partner_form .btn-primary:hover {
+  background-color: #f66543;
+  border-color: #f66543;
+  color:#fff;
+}
+
 .become_partner_form {padding:40px;}
 .become_partner_submit {padding-top:20px;}
 
