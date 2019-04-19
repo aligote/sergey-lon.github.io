@@ -73,6 +73,59 @@ body {
     color: #fff;
     box-shadow:none;
 }
+.enter_reg_form {
+  max-width:570px;
+  padding: 20px;
+}
+.enter_reg_form .title-reviews {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1;
+  text-align: left;
+  margin-bottom: 10px;
+  text-transform:uppercase;
+}
+.enter_reg_form_forget {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  text-decoration:underline;
+  margin-bottom: 21px;
+}
+.enter_reg_form label {
+color: rgba(0, 0, 0, 0.6);
+font-size: 14px;
+font-weight: 600;
+line-height: 1;
+}
+.enter_reg_form input {border-radius:0}
+.enter_reg_form .form-check label{
+color: rgba(0, 0, 0, 0.6);
+font-size: 14.58px;
+font-weight: 400;
+line-height: 20.833px;
+}
+
+.enter_submit .btn{
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 20px 98px;
+  margin-top: 15px;
+  text-transform:uppercase;
+  background-color: #f7b932;
+  border-color: #f7b932;
+  color: #000;
+}
+.enter_submit .btn:hover, .enter_submit .btn:active, .enter_submit .btn:focus {
+    background-color: #f66543;
+    border-color: #f66543;
+    color: #fff;
+    box-shadow: none;
+}
 
 .tel {
     position: relative;
@@ -749,6 +802,7 @@ body {
 .fancybox-close-small:after{
   background: #6a46de;
   color:#fff;
+  font-size:35px;
 }
 .become_partner_form .btn-primary {
   background-color: #f7b932;
