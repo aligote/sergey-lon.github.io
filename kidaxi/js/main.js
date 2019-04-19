@@ -54,6 +54,7 @@ $(document).ready(function(){
   var price = 0;
 	$(".basket").click(function(){
     $('.basket-img').attr('src','img/basket_full.png');
+    $('.basket-counter').css('display', 'block');
     $('.basket-counter').html(++counter);
     $('.basket-price').html(price +=100);
     return counter,price;
