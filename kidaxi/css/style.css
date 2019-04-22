@@ -109,7 +109,7 @@ font-weight: 400;
 line-height: 20.833px;
 }
 
-.enter_reg_form .form-check a {display:inline;}
+.enter_reg_form .form-check a, .reg_form .form-check a  {display:inline;}
 
 .enter_submit .btn, .reg_submit .btn{
   color: #000000;
