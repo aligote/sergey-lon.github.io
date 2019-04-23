@@ -48,8 +48,8 @@ var swiper = new Swiper('.swiper-container', {
   },
 });
 
-// basket 
 $(document).ready(function(){
+// basket 
   var counter = 0;
   var price = 0;
 	$(".basket").click(function(){
@@ -59,4 +59,16 @@ $(document).ready(function(){
     $('.basket-price').html(price +=100);
     return counter,price;
     })
+
+//profile 
+  $(".personal").click(function(){
+    $(".profile-block").show();
+    $(".order-block").hide();
+  })
+  $(".order").click(function(){
+    $(".profile-block").hide();
+    $(".order-block").show();
+  })
+  
 });
+
