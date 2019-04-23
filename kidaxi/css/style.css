@@ -442,8 +442,6 @@ line-height: 20.833px;
     line-height: 25px;
 }
 
-
-
 .navbar {position:fixed; top:0; width:100%; display:none; z-index:1;}
 #navbarTogglerDemo03 {position:fixed; width:300px; z-index:1; background:#F1F0ED; left:-300px; transition: .3s ease-in-out; top: 0; height: 100%; padding:20px; opacity:1; display:block;}
 #navbarTogglerDemo03.show {transform: translateX(100%);}
@@ -452,7 +450,83 @@ line-height: 20.833px;
   font-size: 28px;
   line-height: 1;
 }
+.breadcrumb {background-color: #fff;}
+.breadcrumb-item + .breadcrumb-item::before {content:'|';}
+.profile .title-reviews {font-size:26px; font-family: unset; text-align:left; margin-bottom: 20px;}
+.profile-nav {
+    display: inline-block;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 5px 0;
+    margin-bottom: 14px;
+}
+.personal {
+  color: #f66543;
+  font-size: 18px;
+  margin-right: 8px;
+}
+.profile-block .col-md-4 + .col-md-4{
+  border-left: 1px solid #e5e5e5;
+}
+.profile h3 {font-size:21px;}
+.profile-personal_form .form-group, .profile-pass_form .form-group{margin-bottom: 5px;}
+.profile-personal_form label, .profile-pass_form label {margin-bottom: 1px;}
+.profile-personal_form input, .profile-pass_form input {border-radius: 0;}
+.profile-personal_form .reg_submit, .profile-pass_form  .reg_submit {padding:0;}
+.profile-personal_form .reg_submit .btn, .profile-pass_form  .reg_submit .btn {padding:20px 80px;}
+.profile .social-title {margin-top: 25px; font-size: 18px;}
+.profile .social_img a {background-image:url('../img/social_hover.png'); margin-right: 12px;}
+.profile .social_img a:hover {background-image:url('../img/social_grey.png');}
 
+.profile ol {margin-left:15px;}
+.profile li {list-style:unset;}
+.profile-address_delete {
+width: 30px;
+height: 30px;
+color: #fff;
+font-weight: 300;
+text-align: center;
+border-radius: 50%;
+border-width: 0;
+background: #f66543;
+transition: background .25s;
+box-sizing: border-box;
+margin-left:5px;
+margin-bottom:5px;
+line-height:30px;
+}
+.profile-address_delete:hover {
+  text-decoration:none;
+  background: #a9a8ab;
+  color:#fff;
+}
+
+.profile-address_add  {
+font-size: 16px;
+font-weight: 500;
+line-height: 1;
+padding: 20px 55px;
+margin-top: 5px;
+text-transform: uppercase;
+background-color: #f7b932;
+border-color: #f7b932;
+color: #000;
+}
+
+.profile-address_add:hover {
+background-color: #f66543;
+border-color: #f66543;
+color: #fff;
+box-shadow: none;
+text-decoration:none;
+}
+.order-block {display:none; margin-bottom: 40px;}
+.order-table {width:100%;}
+.order-table th {border-bottom: 2px solid #000; padding: 5px;}
+.order-table td {padding: 5px;}
+.order-table .green {color: #4d9c5a;}
+.order-table .orange {color: #f66543;}
+.order-table .blue {color: #39799c;}
 
 .banner {
     margin-top: 11px;
