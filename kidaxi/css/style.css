@@ -465,9 +465,9 @@ line-height: 20.833px;
   font-size: 18px;
   margin-right: 8px;
 }
-.profile-block .col-md-4 + .col-md-4{
-  border-left: 1px solid #e5e5e5;
-}
+.profile-block .col-md-4 + .col-md-4{border-left: 1px solid #e5e5e5;}
+.profile-block .col-md-4 {margin-bottom:40px;}
+
 .profile h3 {font-size:21px;}
 .profile-personal_form .form-group, .profile-pass_form .form-group{margin-bottom: 5px;}
 .profile-personal_form label, .profile-pass_form label {margin-bottom: 1px;}
@@ -1697,6 +1697,7 @@ footer {
 }
 
 @media (max-width: 735px) {
+  .wrap-header-left {display:none;}
   .block-menu {display:none;}
   .navbar {display: flex;}
   
