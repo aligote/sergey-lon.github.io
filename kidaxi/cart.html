@@ -218,7 +218,7 @@
                         </td>
                         <td>74</td>
                         <td>899 Р</td>
-                        <td>2</td>
+                        <td><input type="number" size="3" name="num" min="0" value="2" class="cart-products-count"></td>
                         <td>1798 Р</td>
                       </tr>
                       <tr>
@@ -228,7 +228,7 @@
                         </td>
                         <td>74</td>
                         <td>899 Р</td>
-                        <td>2</td>
+                        <td><input type="number" size="3" name="num" min="0" value="2" class="cart-products-count"></td>
                         <td>1798 Р</td>
                       </tr>
                     </table>
@@ -240,7 +240,7 @@
                         <input type="text" class="form-control" id="promokod" value="" placeholder="Введите промокод" required>
                       </div>
                       <div class="promo-form_submit">
-                        <button type="submit" class="btn btn-primary">Отправить заявку</button>
+                        <button type="submit" class="btn btn-primary">Применить</button>
                       </div>
                     </form>
                     <a href="#" class="promo-question"><i class="promo-question_icon"></i> Что такое промокод?</a>
@@ -252,7 +252,7 @@
                       <p>Итого</p>
                       <p>4 495 Р</p>
                     </div>
-                    <a href="#" class="btn cart-send-order">Оформить заказ</a>
+                    <a href="#" class="btn cart-send-order" data-fancybox="" data-src="#cart-order-send">Оформить заказ</a>
                   </div>
                   </div>
               </div>
@@ -469,7 +469,45 @@
         </div>
       </div>
     </div>
-<div class="shabl" style="background:url('3.jpg') no-repeat top center;position: absolute;content: '';z-index: -1; display: block;width: 100%;height: 4789px;opacity: 0.5; top:0; display:none;"></div>
+    
+    <div class="row" style="display: none;" id="cart-order-send">
+      <form action="" class="cart-order-send_form">
+      <span class="title-reviews">Оформление заказа <b>(1/2)</b></span>
+        <div class="form-group">
+          <label for="enterEmailPhone">E-mail или телефон</label>
+          <input type="text" class="form-control" id="enterEmailPhone" value="" placeholder="Введите email или телефон" required>
+        </div>
+        <div class="form-group">
+          <label for="enterPass">Пароль</label>
+          <input type="text" class="form-control" id="enterPass" value="" placeholder="Введите пароль" required>
+        </div>
+        <a href="#" class="enter_reg_form_forget">Забыли пароль?</a>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="enterSaveme">
+          <label class="form-check-label" for="enterSaveme">Запомнить меня</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="enterCheck1" checked>
+          <label class="form-check-label" for="enterCheck1">Согласен на обработку персональных данных, с <a href="#">договором публичной оферты</a> и <a href="#">политикой конфиденциальности</a> ознакомлен и принимаю</label>
+        </div>
+        <div class="text-left enter_submit">
+          <button type="submit" class="btn btn-primary">Войти и Купить</button>
+          <a href="#" data-fancybox="" data-src="#reg">Зарегистрироваться</a>
+        </div>
+      </form>
+      <div class="enter_social">
+        <span class="enter_social-title">Войти с помощью соцсетей:</span>
+        <div class="social_img">
+          <a href="#" class="vk"> </a>
+          <a href="#" class="fc"> </a>
+          <a href="#" class="ok"> </a>
+        </div>
+      </div>
+      <div class="cart-order-buyoutreg">
+        <a href="#" class="cart-order-buyoutreg-btn">Купить без регистрации</a>
+      </div>
+    </div>
+
     
     <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
