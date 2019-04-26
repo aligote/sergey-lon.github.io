@@ -2278,6 +2278,35 @@ margin-top:27px;
     margin-bottom: 50px;
 }
 
+.detailed-parameter{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.detailed-parameter .key{
+color: #7f7f7f;
+font-size: 17px;
+font-weight: 400;
+line-height: 1;
+}
+
+.text {
+  display: flex;
+  align-items: flex-end;
+}
+
+.text .dots {
+  flex-grow: 1;
+  border-bottom: 4px dotted #d7d4d4;
+}
+.text .value{
+color: #000000;
+font-size: 16.67px;
+font-weight: 400;
+line-height: 33.333px;
+}
+
 .wrap-stars-second .stars{
 
 }
