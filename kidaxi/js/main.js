@@ -31,23 +31,6 @@ $(document).ready(function(){
 
 */ 
 
-// swiper
-var swiper = new Swiper('.swiper-container', {
-  slidesPerView: 5,
-  spaceBetween: 30,
-  slidesPerGroup: 5,
-  loop: true,
-  loopFillGroupWithBlank: true,
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-});
-
 $(document).ready(function(){
 // basket 
   var counter = 0;
@@ -69,6 +52,40 @@ $(document).ready(function(){
     $(".profile-block").hide();
     $(".order-block").show();
   })
-  
+
+// swiper
+var swiper = new Swiper('.slider1', {
+  slidesPerView: 5,
+  spaceBetween: 30,
+  slidesPerGroup: 5,
+  loop: true,
+  loopFillGroupWithBlank: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+
+var swiper2 = new Swiper('.slider2', {
+  slidesPerView: 5,
+  spaceBetween: 30,
+  slidesPerGroup: 5,
+  loop: true,
+  loopFillGroupWithBlank: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+
+
 });
 
