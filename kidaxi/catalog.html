@@ -192,21 +192,40 @@
 
     <main>
         <div class="container">
+            <div class="row">
+              <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Главная</a></li>
+                <li class="breadcrumb-item"><a href="/">Каталог</a></li>
+                <li class="breadcrumb-item"><a href="/">Девочки</a></li>
+                <li class="breadcrumb-item active">Комбинезоны</li>
+              </ul>
+            </div>  
             <div class="wrap-catalog">
                 <div class="wrap-all_goods">
                     <a href=""><span><b>Все товары</b></span></a>
-                    <ul>
-                        <li><a href=""><p>Все товары</p></a></li>
-                        <li><a href=""><p>Все товары</p></a></li>
-                        <li><a href=""><p>Все товары</p></a></li>
-                        <li><a href=""><p>Все товары</p></a></li>
-                        <li><a href=""><p>Все товары</p></a></li>
-                        <li><a href=""><p>Все товары</p></a></li>
-                        <li><a href=""><p>Все товары</p></a></li>
+                    <ul class="catalog_category">
+                        <li><a href="#" data-toggle="collapse" aria-controls=".boy" data-target=".boy" class="icon-drop_down boy" data-parent=".catalog_category">Мальчики</a>
+                          <ul class="catalog_subcategory boy collapse" data-parent=".catalog_category" >
+                            <li><a href="#">Белье</a></li>
+                            <li><a href="#">Комбинезоны</a></li>
+                            <li><a href="#">Носки</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#" data-toggle="collapse" aria-controls=".girl" data-target=".girl" class="icon-drop_down girl collapse show" data-parent=".catalog_category">Девочки</a>
+                          <ul class="catalog_subcategory girl collapse in show" data-parent=".catalog_category">
+                            <li><a href="#">Белье</a></li>
+                            <li><a href="#" class="menu-orange">Комбинезоны</a></li>
+                            <li><a href="#">Платья</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#">Для дома</a></li>
+                        <li><a href="#">Категория 1</a></li>
+                        <li><a href="#">Категория 2</a></li>
+                        <li><a href="#">Новинки</a></li>
+                        <li><a href="#">Распродажа</a></li>
                     </ul>
                 </div>
                 <div class="wrap-products-catalog">
-                    <span class="main-link"><a href="">Главная</a> » <a href="">Каталог</a> » <a href="">Девочки</a> » Комбинезоны</span>
                     <span class="overalls-girls">Комбинезоны для девочек</span>
                     <div class="sort">
                         <p>Сортировать по цене:  <a href="">больше</a> | <a href="">меньше</a>  | <a href="">обновлению</a></p>
@@ -796,5 +815,6 @@
     <script src="js/swiper.min.js"></script>
     <script src="js/main.js"></script>
 
+<div class="shabl" style="background:url('4.jpg') no-repeat top center;position: absolute;content: '';z-index: -1; display: block;width: 100%;height: 4789px;opacity: 0.5; top:0; display:none;"></div>
 
 </body></html>
