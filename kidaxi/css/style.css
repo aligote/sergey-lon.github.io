@@ -2532,23 +2532,32 @@ line-height: 1;
   margin-bottom:10px;
 }
 
-.wrap-item-favorites {}
 
 .wrap-items {
     flex-wrap: wrap;
     display: flex;
 }
+.wrap-item-favorites {}
 
-.item {min-width: 220px; max-width: 230px; padding:7px; border-width: 1px; border-color: #fff; border-style: solid; margin-bottom:30px;}
-.item:hover {border-width: 1px; border-color: #dedede; border-style: solid;}
+.wrap-items .wrap-img {position:relative;}
+.item-quick-buy {color:#fff; background-color: rgba(106, 70, 222, 0.6); padding: 12px 25px; position: absolute; top: 45%; left: 11%; display:none;}
+.item-quick-buy:hover {color:#fff; text-decoration:none; background: rgba(222, 91, 70, 0.6);}
+.wrap-items .item {min-width: 220px; max-width: 230px; padding:7px; border-width: 1px; border-color: #fff; border-style: solid; margin-bottom:30px; position:relative;}
+.item-zoom:hover {min-width: 230px;  padding:7px; position:absolute;z-index: 1;background: #fff; border: 1px solid #dedede; top:0; left:0}
+.item:hover {border-width: 1px; border-color: #dedede; border-style: solid;min-width: 230px;}
 .item  .articul  {color: #a3a3a3; font-size:12px; margin:0; padding:0; line-height: 26px;}
-.wrap-item-articul {
-    display: flex;
-    justify-content: space-between;
-}
+.wrap-item-articul {display: flex; justify-content: space-between;}
 
+.wrap-item-price {margin-bottom:10px;}
 .wrap-item-price .card_description-wholesale {font-size:14px; margin-bottom:6px; line-height:1;}
 .wrap-item-price .price-wholesale {font-size:20px; line-height:1;}
 .wrap-item-price .wrap-card-price-right {margin-bottom:0;}
 .wrap-item-price .card_description-retail {font-size:14px; margin-bottom:6px; line-height:1;}
 .wrap-item-price .price-retail {font-size:20px; line-height:1;}
+
+.wrap-item-dimension {display:none;}
+.item-dimension {display: flex; justify-content: space-between; flex-wrap: wrap;}
+.wrap-item-dimension p {font-size:14px; font-weight:400; line-height:1; margin-bottom:10px; padding:0;}
+.wrap-item-dimension a {display: inline-block; padding: 0 4px;}
+.wrap-items .item:hover .wrap-item-dimension {display:block;}
+.wrap-items .item:hover .item-quick-buy {display:block;}
