@@ -2534,8 +2534,8 @@ line-height: 1;
 
 
 .wrap-items {
-    flex-wrap: wrap;
-    display: flex;
+  flex-wrap: wrap;
+  display: flex;
 }
 .wrap-item-favorites {}
 
@@ -2561,3 +2561,4 @@ line-height: 1;
 .wrap-item-dimension a {display: inline-block; padding: 0 4px;}
 .wrap-items .item:hover .wrap-item-dimension {display:block;}
 .wrap-items .item:hover .item-quick-buy {display:block;}
+#quick-buy-card .card-block {padding: 10px;}
