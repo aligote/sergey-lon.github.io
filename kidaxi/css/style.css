@@ -2543,7 +2543,7 @@ line-height: 1;
 .item-quick-buy {color:#fff; background-color: rgba(106, 70, 222, 0.6); padding: 12px 25px; position: absolute; top: 45%; left: 11%; display:none;}
 .item-quick-buy:hover {color:#fff; text-decoration:none; background: rgba(222, 91, 70, 0.6);}
 .wrap-items .item {min-width: 220px; max-width: 230px; padding:7px; border-width: 1px; border-color: #fff; border-style: solid; margin-bottom:30px; position:relative;}
-.item-zoom:hover {min-width: 230px;  padding:7px; position:absolute;z-index: 1;background: #fff; border: 1px solid #dedede; top:0; left:0}
+.item:hover .item-zoom {min-width: 230px;  padding:7px; position:absolute;z-index: 1;background: #fff; border: 1px solid #dedede; top:0; left:0}
 .item:hover {border-width: 1px; border-color: #dedede; border-style: solid;min-width: 230px;}
 .item  .articul  {color: #a3a3a3; font-size:12px; margin:0; padding:0; line-height: 26px;}
 .wrap-item-articul {display: flex; justify-content: space-between;}
