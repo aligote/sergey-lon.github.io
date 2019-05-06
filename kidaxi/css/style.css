@@ -1906,9 +1906,7 @@ footer {
     .read_more {
         width: 100%;
     }
-    .become_partner-button {
-        width: 100%;
-    }
+
     .wrap-reviews-certificates {
         padding: 0;
     }
@@ -1978,6 +1976,18 @@ footer {
     }
     .wrap-footer-top1 {width: 100%; text-align: center; margin-top: 20px;}
     .wrap-footer-top3 {width: 100%; text-align: center; margin-top: 20px; min-width:unset;}
+    .become_partner {background-color: #f6b932;}
+    .wrap-comments-suggestions {width:95%;}
+    .navbar .email {display:none;}
+    .header {margin-bottom: 10px;}
+    .wrap-logo {margin-right: 10px;}
+    .entrance-basket p:first-child {display:none;}
+    .entrance-basket i {display:none;}
+    .entrance-basket a {display:none;}
+    .entrance-basket a:nth-child(1) {display:inline-block;}
+    .request-call {text-align:center;}
+    .entrance-basket .request {display:inline-block; width: 85px; white-space: normal; line-height: 1;}
+    #navbarTogglerDemo03 {z-index:16;}
 }
 
 
