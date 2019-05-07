@@ -1551,445 +1551,6 @@ footer {
     width: 430px;
 }
 
-@media (max-width: 1200px) {
-    .wrap-products{
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .wrap-top{
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .wrap-bottom {
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .wrap-bottom-right-bottom {
-        width: calc(100% - 30px);
-    }
-}
-
-
-
-@media (max-width: 1174px) {
-    .advantage-item {
-        padding-right: 0;
-    }
-
-    .schedule:before {
-        left: -25px;
-    }
-
-    .wrap-header {
-        font-size: 14px;
-    }
-    .wrap-certificates-img img {
-        display: flex;
-        justify-content: space-around;
-        padding: 0;
-    }
-    .wrap-about_company-text span {
-        font-size: 16px;
-    }
-    .title-reviews {
-        font-size: 40px;
-    }
-    .comment {
-        font-size: 17px;
-    }
-    .name {
-        font-size: 17px;
-    }
-    .date {
-        font-size: 17px;
-    }
-    .certificates {
-        width: 100%;
-    }
-    .all_certificates {
-      position:static;
-    }
-    .title-reviews {
-        width: 100%;
-    }
-    .wrap-certificates-img{
-        flex-wrap: wrap;
-        display: flex;
-        justify-content: space-around;
-    }
-    .wrap-reviews-certificates {
-        flex-wrap: wrap;
-    }
-    .comments-suggestions {
-        width: 100%;
-        height: unset;
-    }
-    .menu-info li {
-        padding: 10px 40px 10px 40px;
-    }
-    .menu-info a:before {
-        left: -46px;
-    }
-}
-
-
-
-@media (max-width: 1023px) {
-    .wrap-products{
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .advantage {
-        padding: 15px 0px;
-    }
-    .advantage-item p {
-        padding-left: 3px;
-    }
-    .menu-info li {
-        padding: 10px 30px 10px 30px;
-    }
-    .title-information {
-        font-size: 40px;
-    }
-    .wrap-footer-top2 a {
-        font-size: 14px;
-    }
-    .wrap-footer-top1 {
-         font-size: 18px;
-     }
-}
-
-@media (max-width: 939px) {
-    .wrap-header {
-        flex-wrap: wrap;
-    }
-    .wrap-header-left {
-        width: 75%;
-    }
-    .wrap-header-right {
-        width: 25%;
-    }
-    .wrap-logo p {
-        font-size: 16px;
-    }
-    .request-call {
-        margin-left: 0;
-        white-space: nowrap;
-    }
-    .entrance-text {
-        margin-left: 18px;
-    }
-    .advantage-item {
-        width: 33%;
-        justify-content: center;
-    }
-    .wrap-advantage {
-        justify-content: center;
-    }
-    .wrap-top-left-top-right {
-        margin-left: 0px;
-    }
-    .wrap-top-right {
-        margin-left: -2px;
-    }
-    .wrap-bottom-right-top-left {
-        margin: 13px 16px 19px 0px;
-    }
-    .wrap-bottom-right-bottom {
-        width: 100%;
-        margin: -1px 0px 0px 0px;
-    }
-    .wrap-about_company {
-        padding: 38px 0px;
-    }
-    .wrap-about_company-right span {
-        margin-bottom: 26px;
-    }
-    .wrap-about_company-left span {
-        margin: 20px 0px 25px 0px;
-    }
-    .wrap-information {
-        padding: 52px 0;
-    }
-    .wrap-info {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .wrap-information-right {
-        width: 100%;
-    }
-    .wrap-subscribe p {
-        font-size: 19px;
-        padding-top: 3px;
-    }
-    .wrap-subscribe input {
-        width: 430px;
-    }
-    .subscribe-button {
-        font-size: 17px;
-    }
-    .subscribe {
-        padding: 27px 0;
-    }
-}
-
-@media (max-width: 735px) {
-  .wrap-header-left {display:none;}
-  .block-menu {display:none;}
-  .navbar {display: flex;}
-  
-    .schedule {
-        display: none;
-    }
-    .wrap-header-left {
-        justify-content: space-around;
-    }
-    .wrap-header-right {
-        padding: 11px 0px 0px 0px;
-    }
-    .wrap-logo p {
-        display: none;
-    }
-    .input-search {
-        display: none;
-    }
-    .button-search {
-        display: none;
-    }
-    .request:before {
-        display: none;
-    }
-    .request {
-        margin-left: 0px;
-    }
-    .entrance-basket {
-        padding-top: 25px;
-        width:50%;
-    }
-    .wrap-logo-descript{
-      display:none;
-    }
-    
-    .menu > ul > li {
-        padding: 10px 20px 10px 20px;
-    }
-    .menu-list:before {
-        display: none;
-    }
-    .advantage-item {
-        display: inline-block;
-    }
-    .wrap-top-left-top {
-        flex-wrap: wrap;
-    }
-    
-    .wrap-products a {
-      width:100%;
-    }
-    .wrap-products img {
-        min-height: 50%;
-    }
-    .wrap-top-left-top {
-        justify-content: center;
-    }
-    .wrap-top-left-bottom {
-        height: unset;
-        bottom: 4px;
-    }
-    .wrap-top-left-bottom h3 {
-        bottom: 4px;
-    }
-    .wrap-top-right {
-        display: none;
-    }
-    .wrap-bottom-left {
-        display: none;
-    }
-    .wrap-bottom-right-top-left h3 {
-        padding: 3px 10px;
-        font-size: 14px;
-    }
-    .wrap-bottom-right-top-right h3 {
-        padding: 4px 10px;
-        font-size: 14px;
-    }
-    .wrap-bottom-right-top-left h3 {
-        bottom: 4px;
-    }
-    .wrap-bottom-right-bottom h3 {
-        font-size: 68px;
-        bottom: -46px;
-        padding: 0px 0px 68px 27px;
-    }
-    .wrap-bottom-right-bottom {
-        height: unset;
-    }
-    .block-products {
-        padding-bottom: 10px;
-    }
-    .about_company-title {
-        font-size: 34px;
-    }
-    .wrap-about_company-left {
-        display: none;
-    }
-    .wrap-about_company-text {
-        padding-top: 20px;
-        flex-wrap: wrap;
-    }
-    .wrap-about_company-right{width: 100%;}
-    .wrap-about_company-right img {
-        display: none;
-    }
-    .wrap-about_company-right span {
-        margin: 20px;
-    }
-    .wrap-reviews-certificates {
-        padding: 38px 0;
-    }
-    .title-reviews {
-        margin: 34px 0;
-    }
-    .wrap-certificates {
-        margin-left: unset;
-    }
-    .menu-info li {
-        padding: 10px 17px 10px 17px;
-    }
-    .wrap-information-right {
-        margin-left: unset;
-    }
-    .menu-info a:before {
-        display: none;
-    }
-    .title-information {
-        margin-bottom: 20px;
-    }
-    .wrap-subscribe {
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .wrap-footer-top {
-        flex-wrap: wrap;
-    }
-    .wrap-footer-top1 {width: 50%;}
-    .wrap-footer-top3 {width: 50%;}
-    .wrap-subscribe input {width:100%; margin-bottom:20px;}
-}
-
-
-@media (max-width: 413px) {
-    .wrap-header-left {
-        justify-content: space-between;
-    }
-    .advantage-item {
-        width: 42%;
-    }
-    .advantage-item_icon {
-        margin-left: 28px;
-    }
-    .advantage-item p {
-        text-align: center;
-    }
-    .wrap-bottom-right-bottom h3 {
-        font-size: 50px;
-    }
-    .wrap-about_company-left {
-        max-width: 100%;
-    }
-    .read_more {
-        font-size: 18px;
-    }
-    .wrap-about_company-right span {
-        margin: 20px auto;
-    }
-    .read_more {
-        width: 100%;
-    }
-
-    .wrap-reviews-certificates {
-        padding: 0;
-    }
-    .date {
-        font-size: 14px;
-    }
-    .name {
-        font-size: 14px;
-    }
-    .wrap-comments-suggestions {
-        padding: 2px 12px 0 12px;
-    }
-    .comment {
-        font-size: 14px;
-    }
-    .further {
-        font-size: 15px;
-    }
-    .all_reviews {
-        font-size: 16px;
-        width: 100%;
-        margin: 20px auto;
-    }
-    .title-reviews {
-        font-size: 34px;
-    }
-    .wrap-comments-suggestions {
-         margin-right: unset;
-    }
-    .all_certificates {
-        font-size: 17px;
-        width: 100%;
-    }
-    .title-information {
-         font-size: 34px;
-     }
-    .wrap-information {
-        padding: 29px 0;
-    }
-    .wrap-information img {
-        height: unset;
-    }
-    .wrap-information-left {
-        min-height: unset;
-    }
-    .menu-info a {
-        font-size: 14px;
-    }
-    .arrival-title {
-        font-size: 16px;
-    }
-    .arrival-date {
-        font-size: 18px;
-    }
-    .new-arrival p {
-        font-size: 14px;
-    }
-    .read_news {
-        font-size: 16px;
-        width: 100%;
-    }
-    .wrap-subscribe p {
-        text-align: center;
-    }
-    .copyright {
-        padding: 30px 0 30px 0;
-    }
-    .wrap-footer-top1 {width: 100%; text-align: center; margin-top: 20px;}
-    .wrap-footer-top3 {width: 100%; text-align: center; margin-top: 20px; min-width:unset;}
-    .become_partner {background-color: #f6b932;}
-    .wrap-comments-suggestions {width:95%;}
-    .navbar .email {display:none;}
-    .header {margin-bottom: 10px;}
-    .wrap-logo {margin-right: 10px;}
-    .entrance-basket p:first-child {display:none;}
-    .entrance-basket i {display:none;}
-    .entrance-basket a {display:none;}
-    .entrance-basket a:nth-child(1) {display:inline-block;}
-    .request-call {text-align:center;}
-    .entrance-basket .request {display:inline-block; width: 85px; white-space: normal; line-height: 1;}
-    #navbarTogglerDemo03 {z-index:16;}
-}
-
 
 
 .back {
@@ -2572,3 +2133,455 @@ line-height: 1;
 .wrap-items .item:hover .wrap-item-dimension {display:block;}
 .wrap-items .item:hover .item-quick-buy {display:block;}
 #quick-buy-card .card-block {padding: 10px;}
+
+
+
+@media (max-width: 1200px) {
+    .wrap-products{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .wrap-top{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .wrap-bottom {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .wrap-bottom-right-bottom {
+        width: calc(100% - 30px);
+    }
+}
+
+
+
+@media (max-width: 1174px) {
+    .advantage-item {
+        padding-right: 0;
+    }
+
+    .schedule:before {
+        left: -25px;
+    }
+
+    .wrap-header {
+        font-size: 14px;
+    }
+    .wrap-certificates-img img {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
+    .wrap-about_company-text span {
+        font-size: 16px;
+    }
+    .title-reviews {
+        font-size: 40px;
+    }
+    .comment {
+        font-size: 17px;
+    }
+    .name {
+        font-size: 17px;
+    }
+    .date {
+        font-size: 17px;
+    }
+    .certificates {
+        width: 100%;
+    }
+    .all_certificates {
+      position:static;
+    }
+    .title-reviews {
+        width: 100%;
+    }
+    .wrap-certificates-img{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+    }
+    .wrap-reviews-certificates {
+        flex-wrap: wrap;
+    }
+    .comments-suggestions {
+        width: 100%;
+        height: unset;
+    }
+    .menu-info li {
+        padding: 10px 40px 10px 40px;
+    }
+    .menu-info a:before {
+        left: -46px;
+    }
+}
+
+
+
+@media (max-width: 1023px) {
+    .wrap-products{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .advantage {
+        padding: 15px 0px;
+    }
+    .advantage-item p {
+        padding-left: 3px;
+    }
+    .menu-info li {
+        padding: 10px 30px 10px 30px;
+    }
+    .title-information {
+        font-size: 40px;
+    }
+    .wrap-footer-top2 a {
+        font-size: 14px;
+    }
+    .wrap-footer-top1 {
+         font-size: 18px;
+     }
+}
+
+@media (max-width: 939px) {
+    .wrap-header {
+        flex-wrap: wrap;
+    }
+    .wrap-header-left {
+        width: 75%;
+    }
+    .wrap-header-right {
+        width: 25%;
+    }
+    .wrap-logo p {
+        font-size: 16px;
+    }
+    .request-call {
+        margin-left: 0;
+        white-space: nowrap;
+    }
+    .entrance-text {
+        margin-left: 18px;
+    }
+    .advantage-item {
+        width: 33%;
+        justify-content: center;
+    }
+    .wrap-advantage {
+        justify-content: center;
+    }
+    .wrap-top-left-top-right {
+        margin-left: 0px;
+    }
+    .wrap-top-right {
+        margin-left: -2px;
+    }
+    .wrap-bottom-right-top-left {
+        margin: 13px 16px 19px 0px;
+    }
+    .wrap-bottom-right-bottom {
+        width: 100%;
+        margin: -1px 0px 0px 0px;
+    }
+    .wrap-about_company {
+        padding: 38px 0px;
+    }
+    .wrap-about_company-right span {
+        margin-bottom: 26px;
+    }
+    .wrap-about_company-left span {
+        margin: 20px 0px 25px 0px;
+    }
+    .wrap-information {
+        padding: 52px 0;
+    }
+    .wrap-info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .wrap-information-right {
+        width: 100%;
+    }
+    .wrap-subscribe p {
+        font-size: 19px;
+        padding-top: 3px;
+    }
+    .wrap-subscribe input {
+        width: 430px;
+    }
+    .subscribe-button {
+        font-size: 17px;
+    }
+    .subscribe {
+        padding: 27px 0;
+    }
+}
+
+@media (max-width: 735px) {
+  .wrap-header-left {display:none;}
+  .block-menu {display:none;}
+  .navbar {display: flex;}
+  
+    .schedule {
+        display: none;
+    }
+    .wrap-header-left {
+        justify-content: space-around;
+    }
+    .wrap-header-right {
+        padding: 11px 0px 0px 0px;
+    }
+    .wrap-logo p {
+        display: none;
+    }
+    .input-search {
+        display: none;
+    }
+    .button-search {
+        display: none;
+    }
+    .request:before {
+        display: none;
+    }
+    .request {
+        margin-left: 0px;
+    }
+    .entrance-basket {
+        padding-top: 25px;
+        width:50%;
+    }
+    .wrap-logo-descript{
+      display:none;
+    }
+    
+    .menu > ul > li {
+        padding: 10px 20px 10px 20px;
+    }
+    .menu-list:before {
+        display: none;
+    }
+    .advantage-item {
+        display: inline-block;
+    }
+    .wrap-top-left-top {
+        flex-wrap: wrap;
+    }
+    
+    .wrap-products a {
+      width:100%;
+    }
+    .wrap-products img {
+        min-height: 50%;
+    }
+    .wrap-top-left-top {
+        justify-content: center;
+    }
+    .wrap-top-left-bottom {
+        height: unset;
+        bottom: 4px;
+    }
+    .wrap-top-left-bottom h3 {
+        bottom: 4px;
+    }
+    .wrap-top-right {
+        display: none;
+    }
+    .wrap-bottom-left {
+        display: none;
+    }
+    .wrap-bottom-right-top-left h3 {
+        padding: 3px 10px;
+        font-size: 14px;
+    }
+    .wrap-bottom-right-top-right h3 {
+        padding: 4px 10px;
+        font-size: 14px;
+    }
+    .wrap-bottom-right-top-left h3 {
+        bottom: 4px;
+    }
+    .wrap-bottom-right-bottom h3 {
+        font-size: 68px;
+        bottom: -46px;
+        padding: 0px 0px 68px 27px;
+    }
+    .wrap-bottom-right-bottom {
+        height: unset;
+    }
+    .block-products {
+        padding-bottom: 10px;
+    }
+    .about_company-title {
+        font-size: 34px;
+    }
+    .wrap-about_company-left {
+        display: none;
+    }
+    .wrap-about_company-text {
+        padding-top: 20px;
+        flex-wrap: wrap;
+    }
+    .wrap-about_company-right{width: 100%;}
+    .wrap-about_company-right img {
+        display: none;
+    }
+    .wrap-about_company-right span {
+        margin: 20px;
+    }
+    .wrap-reviews-certificates {
+        padding: 38px 0;
+    }
+    .title-reviews {
+        margin: 34px 0;
+    }
+    .wrap-certificates {
+        margin-left: unset;
+    }
+    .menu-info li {
+        padding: 10px 17px 10px 17px;
+    }
+    .wrap-information-right {
+        margin-left: unset;
+    }
+    .menu-info a:before {
+        display: none;
+    }
+    .title-information {
+        margin-bottom: 20px;
+    }
+    .wrap-subscribe {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .wrap-footer-top {
+        flex-wrap: wrap;
+    }
+    .wrap-footer-top1 {width: 50%;}
+    .wrap-footer-top3 {width: 50%;}
+    .wrap-subscribe input {width:100%; margin-bottom:20px;}
+}
+
+
+@media (max-width: 413px) {
+    .wrap-header-left {
+        justify-content: space-between;
+    }
+    .advantage-item {
+        width: 42%;
+    }
+    .advantage-item_icon {
+        margin-left: 28px;
+    }
+    .advantage-item p {
+        text-align: center;
+    }
+    .wrap-bottom-right-bottom h3 {
+        font-size: 50px;
+    }
+    .wrap-about_company-left {
+        max-width: 100%;
+    }
+    .read_more {
+        font-size: 18px;
+    }
+    .wrap-about_company-right span {
+        margin: 20px auto;
+    }
+    .read_more {
+        width: 100%;
+    }
+
+    .wrap-reviews-certificates {
+        padding: 0;
+    }
+    .date {
+        font-size: 14px;
+    }
+    .name {
+        font-size: 14px;
+    }
+    .wrap-comments-suggestions {
+        padding: 2px 12px 0 12px;
+    }
+    .comment {
+        font-size: 14px;
+    }
+    .further {
+        font-size: 15px;
+    }
+    .all_reviews {
+        font-size: 16px;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .title-reviews {
+        font-size: 34px;
+    }
+    .wrap-comments-suggestions {
+         margin-right: unset;
+    }
+    .all_certificates {
+        font-size: 17px;
+        width: 100%;
+    }
+    .title-information {
+         font-size: 34px;
+     }
+    .wrap-information {
+        padding: 29px 0;
+    }
+    .wrap-information img {
+        height: unset;
+    }
+    .wrap-information-left {
+        min-height: unset;
+    }
+    .menu-info a {
+        font-size: 14px;
+    }
+    .arrival-title {
+        font-size: 16px;
+    }
+    .arrival-date {
+        font-size: 18px;
+    }
+    .new-arrival p {
+        font-size: 14px;
+    }
+    .read_news {
+        font-size: 16px;
+        width: 100%;
+    }
+    .wrap-subscribe p {
+        text-align: center;
+    }
+    .copyright {
+        padding: 30px 0 30px 0;
+    }
+    .wrap-footer-top1 {width: 100%; text-align: center; margin-top: 20px;}
+    .wrap-footer-top3 {width: 100%; text-align: center; margin-top: 20px; min-width:unset;}
+    .become_partner {background-color: #f6b932;}
+    .wrap-comments-suggestions {width:95%;}
+    .navbar .email {display:none;}
+    .header {margin-bottom: 10px;}
+    .wrap-logo {margin-right: 10px;}
+    .entrance-basket p:first-child {display:none;}
+    .entrance-basket i {display:none;}
+    .entrance-basket a {display:none;}
+    .entrance-basket a:nth-child(1) {display:inline-block;}
+    .request-call {text-align:center;}
+    .entrance-basket .request {display:inline-block; width: 85px; white-space: normal; line-height: 1;}
+    #navbarTogglerDemo03 {z-index:16;}
+    .advantage-popup {bottom:0;}
+    .advantage-item p {width:100%;}
+    .about_company-title {line-height:1;}
+    .wrap-about_company-right {padding-left:0;}
+    .title-reviews {line-height:1;}
+    .wrap-certificates-img img {margin-bottom:10px;}
+    .all_certificates {padding:20px;}
+    .swiper-slide {width: 50% !important;}
+    .wrap-subscribe input {font-size:18px;}
+    .form-call .field {width:100%;}
+    .form-call .call-hidden {width:100%;font-size: 18px;}    
+}
