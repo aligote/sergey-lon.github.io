@@ -2604,4 +2604,7 @@ line-height: 1;
     .user-feedback-text {margin-left:0;}
     .wrap-reviews {margin-bottom:30px;}
     .card {border:none;}
+    .wrap-all_goods {display:none;}
+    .wrap-products-catalog {width:100%;}
+    .wrap-items .item {min-height:470px;}
 }
