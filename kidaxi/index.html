@@ -49,7 +49,7 @@
                     </div>
                     <div class="entrance-basket">
                       <p>Пн-Пт 9:30 - 18:00</p>
-                      <i class="tel"></i> <a href="tel:74957999673"><div class="tel_small">+7 (495)</div> 799 96 73</a>
+                      <i class="tel"></i> <a href="tel:+74957999673"><div class="tel_small">+7 (495)</div> 799 96 73</a>
                       <div class="request-call">
                         <a class="request" data-fancybox="" data-src="#hidden-content" href="javascript:;">Заказать звонок</a>
                       </div>
@@ -70,8 +70,10 @@
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <p class="tel">+7(495) 799-96-73</p>
-          <p class="email">sales@kidaxi.ru</p>
+          <div class="navbar-controle-icn">
+            <a href="#" data-fancybox="" data-src="#enter_reg"><span class="navbar-phone-icon"> </span></a>
+            <a href="#" data-fancybox="" data-src="#search-mobile"><span class="navbar-search-icon"> </span></a>
+          </div>
         </nav>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <button type="button" class="navbar-toggle x navbar-close" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-expanded="true"><span aria-hidden="true">&times;</span></button>
@@ -549,7 +551,7 @@
                             </div>
                         </div>
                         <div class="wrap-footer-top1">
-                          <i class="tel"></i> <a href="tel:74957999673" class="footer_link"><div class="tel_small">+7 (495)</div> 799 96 73</a><br>
+                          <i class="tel"></i> <a href="tel:+74957999673" class="footer_link"><div class="tel_small">+7 (495)</div> 799 96 73</a><br>
                           <a href="tel:79856136610" class="footer_link"><div class="tel_small">+7 (985)</div> 613 66 10</a>
                           <div class="footer_schedule">
                             Оптовый отдел:<br>
@@ -710,7 +712,17 @@
         </div>
       </div>
     </div>
-
+    <div class="row" style="display: none;" id="search-mobile">
+      <form action="" class="search-mobile-form">
+      <span class="title-reviews">Поиск</span>
+      <div class="form-group">
+        <input type="text" class="form-control" id="regName" value="" placeholder="Поиск" required>
+      </div>
+      <div class="search_submit">
+        <button type="submit" class="btn btn-primary">Поиск</button>
+      </div>
+      </form>
+    </div>
     
     <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
