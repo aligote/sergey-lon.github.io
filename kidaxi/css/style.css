@@ -2630,4 +2630,6 @@ line-height: 1;
     .in-basket {position:relative;}
     .sort-page {flex-direction: column;}
     .wrap-items .item:hover .item-quick-buy {display:none;}
+    .banner-img {min-height:unset;}
+    #carouselbanner .carousel-item {min-height:190px;}
 }
