@@ -70,8 +70,10 @@
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <p class="tel">+7(495) 799-96-73</p>
-          <p class="email">sales@kidaxi.ru</p>
+          <div class="navbar-controle-icn">
+            <a href="#" data-fancybox="" data-src="#enter_reg"><span class="navbar-phone-icon"> </span></a>
+            <a href="#" data-fancybox="" data-src="#search-mobile"><span class="navbar-search-icon"> </span></a>
+          </div>
         </nav>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <button type="button" class="navbar-toggle x navbar-close" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-expanded="true"><span aria-hidden="true">&times;</span></button>
@@ -219,7 +221,7 @@
                         <td>74</td>
                         <td>899 Р</td>
                         <td><input type="number" size="3" name="num" min="0" value="2" class="cart-products-count"></td>
-                        <td>1798 Р</td>
+                        <td>1798 Р <a href="#" class="product_delete">X</a></td>
                       </tr>
                       <tr>
                         <td><img src="img/cart-product.jpg" alt="Комбинезон"></td>
@@ -229,7 +231,7 @@
                         <td>74</td>
                         <td>899 Р</td>
                         <td><input type="number" size="3" name="num" min="0" value="2" class="cart-products-count"></td>
-                        <td>1798 Р</td>
+                        <td>1798 Р <a href="#" class="product_delete">X</a></td>
                       </tr>
                     </table>
                     <a href="#" class="cart-products-clear"><i class="cart-products-clear_icn"></i> Очистить корзину</a>
@@ -491,7 +493,7 @@
           <label class="form-check-label" for="enterCheck1">Согласен на обработку персональных данных, с <a href="#">договором публичной оферты</a> и <a href="#">политикой конфиденциальности</a> ознакомлен и принимаю</label>
         </div>
         <div class="text-left enter_submit">
-          <button type="submit" class="btn btn-primary">Войти и Купить</button>
+          <button type="submit" class="btn btn-primary btn_buyoutreg">Войти и Купить</button>
           <a href="#" data-fancybox="" data-src="#reg">Зарегистрироваться</a>
         </div>
       </form>
@@ -504,8 +506,75 @@
         </div>
       </div>
       <div class="cart-order-buyoutreg">
-        <a href="#" class="cart-order-buyoutreg-btn">Купить без регистрации</a>
+        <a href="#" class="cart-order-buyoutreg-btn btn_buyoutreg">Купить без регистрации</a>
       </div>
+    
+    <div style="display: none;" id="cart-order-send2">
+      <form action="" class="cart-order-send_form">
+      <span class="title-reviews">Оформление заказа <b>(2/2)</b></span>
+        <div class="form-group">
+          <label for="orderName">Имя</label>
+          <input type="text" class="form-control" id="orderName" value="" placeholder="Введите имя" required>
+        </div>
+        <div class="form-group">
+          <label for="orderName">Фамилия</label>
+          <input type="text" class="form-control" id="orderName" value="" placeholder="Введите фамилию" required>
+        </div>
+        <div class="form-group">
+          <label for="orderName">Ваш город</label>
+          <input type="text" class="form-control" id="orderName" value="" placeholder="Введите город" required>
+        </div>
+        <div class="form-group">
+          <label for="orderName">Email</label>
+          <input type="text" class="form-control" id="orderName" value="" placeholder="Введите email" required>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="enterSaveme">
+          <label class="form-check-label" for="enterSaveme">Подписаться на новости</label>
+        </div>
+        <div class="form-group">
+          <label for="orderName">Телефон</label>
+          <input type="text" class="form-control" id="orderName" value="" placeholder="Введите номер телефона" required>
+        </div>
+        <div class="form-group">
+          <label for="orderName">Комментарий к заказу</label>
+          <input type="textarea" class="form-control" id="orderName" value="" placeholder="Введите комментарий к заказу" required>
+        </div>
+        <div class="form-check">
+          <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="orderSendCompany" name="orderSend" checked>
+            <label class="custom-control-label" for="orderSendCompany">Доставка транспортной компанией</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="orderSendSelf" name="orderSend" >
+            <label class="custom-control-label" for="orderSendSelf">Самовывоз</label>
+          </div>
+        </div>
+        <div class="form-group orderSendCompany">
+          <label for="orderName">Адрес</label>
+          <input type="text" class="form-control" id="orderName" value="" placeholder="Введите адрес">
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="enterCheck1" checked>
+          <label class="form-check-label" for="enterCheck1">Согласен на обработку персональных данных, с <a href="#">договором публичной оферты</a> и <a href="#">политикой конфиденциальности</a> ознакомлен и принимаю</label>
+        </div>
+        <div class="text-left enter_submit">
+          <button type="submit" class="btn btn-primary">Оформить заказ</button>
+        </div>
+      </form>
+    </div>
+    </div>
+    
+    <div class="row" style="display: none;" id="search-mobile">
+      <form action="" class="search-mobile-form">
+      <span class="title-reviews">Поиск</span>
+      <div class="form-group">
+        <input type="text" class="form-control" id="regName" value="" placeholder="Поиск" required>
+      </div>
+      <div class="search_submit">
+        <button type="submit" class="btn btn-primary">Поиск</button>
+      </div>
+      </form>
     </div>
 
     
@@ -514,6 +583,23 @@
     <script type="text/javascript" src="js/fancybox.js"></script>
     <script src="js/swiper.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+    $(document).ready(function(){
+    $('.btn_buyoutreg').on('click', function(e){
+      $('.cart-order-send_form:eq(0)').hide();
+      $('.enter_social').hide();
+      $('.cart-order-buyoutreg').hide();
+      $('#cart-order-send2').show();
+    })
+    $('input[name=orderSend]').on('click', function(){
+      var ordervalue = $('input[name=orderSend]:checked').attr('id');
+      if (ordervalue == 'orderSendSelf') {
+        $('.orderSendCompany').css('opacity', '0.4');
+      }
+      else {$('.orderSendCompany').css('opacity', '1');}
+    });
+    })
+    </script>
 
 
 </body></html>
