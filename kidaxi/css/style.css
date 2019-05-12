@@ -77,7 +77,7 @@ body {
   max-width:570px;
   padding: 20px;
 }
-.enter_reg_form .title-reviews, .reg_form .title-reviews {
+.enter_reg_form .title-reviews, .reg_form .title-reviews, .search-mobile-form .title-reviews{
   color: #000000;
   font-size: 25px;
   font-weight: 500;
@@ -450,6 +450,13 @@ line-height: 20.833px;
   font-size: 28px;
   line-height: 1;
 }
+.navbar-controle-icn {position:relative; display:flex;}
+.navbar-phone-icon {background: url(../img/login_icn.png) no-repeat 0; width: 36px; height: 36px; margin-right: 10px;}
+.navbar-phone-icon:hover {background: url(../img/login_icn2.png)}
+.navbar-search-icon {background: url(../img/search_icn.png) no-repeat 0; width: 36px; height: 36px;}
+.navbar-search-icon:hover {background: url(../img/search_icn2.png)}
+.search-mobile-form {max-width: 570px; padding: 20px;}
+
 .breadcrumb {background-color: #fff;}
 .breadcrumb-item + .breadcrumb-item::before {content:'|';}
 .profile .title-reviews {font-size:26px; font-family: unset; text-align:left; margin-bottom: 20px;}
@@ -2567,12 +2574,14 @@ line-height: 1;
     .navbar .email {display:none;}
     .header {margin-bottom: 10px;}
     .wrap-logo {margin-right: 10px;}
+    .entrance-basket {min-width:110px; padding-top:10px; text-align:center;}
     .entrance-basket p:first-child {display:none;}
     .entrance-basket i {display:none;}
-    .entrance-basket a {display:none;}
+    .entrance-basket a {font-size:12px;}
+    .tel_small {font-size:12px;}
     .entrance-basket a:nth-child(1) {display:inline-block;}
     .request-call {text-align:center;}
-    .entrance-basket .request {display:inline-block; width: 85px; white-space: normal; line-height: 1;}
+    .entrance-basket .request {display:inline-block; width: 85px; white-space: normal; line-height: 1; margin:5px 0;}
     #navbarTogglerDemo03 {z-index:16;}
     .advantage-popup {bottom:0;}
     .advantage-item p {width:100%;}
