@@ -74,6 +74,16 @@
             <a href="#" data-fancybox="" data-src="#enter_reg"><span class="navbar-phone-icon"> </span></a>
             <a href="#" data-fancybox="" data-src="#search-mobile"><span class="navbar-search-icon"> </span></a>
           </div>
+          <div class="catalog_filter_top">
+            <select class="catalog_filter_top-sort">
+              <option>По популярности</option>
+              <option>По рейтингу</option>
+              <option>По цене</option>
+              <option>По скидке</option>
+              <option>По обновлению</option>
+            </select>
+            <div class="catalog_filter_top-filters"><a href="#" data-fancybox="" data-src="#catalog_filter_top">Фильтры</a></div>
+          </div>
         </nav>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <button type="button" class="navbar-toggle x navbar-close" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-expanded="true"><span aria-hidden="true">&times;</span></button>
@@ -1214,10 +1224,40 @@
         <div class="item-dimension">
           <a href="#">126</a><a href="#">128</a><a href="#">158</a><a href="#">122</a><a href="#">152</a><a href="#">123</a>
           <a href="#">126</a><a href="#">128</a><a href="#">158</a><a href="#">122</a><a href="#">152</a><a href="#">123</a>
-          </div>
+        </div>
       </div>
       <div class="search_submit">
         <button type="submit" class="btn btn-primary">Добавить в корзину</button>
+      </div>
+      </form>
+    </div>
+    
+    <div class="row" style="display: none;" id="catalog_filter_top">
+      <form action="" class="select-filter-form">
+      <span class="title-reviews">Фильтры</span>
+      <div class="form-group">
+        <select class="catalog_filter_top-sort">
+          <option disabled>Бренд</option>
+          <option>Найк</option>
+          <option>Адидас</option>
+          <option>Коламбиа</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <select class="catalog_filter_top-sort">
+          <option disabled>Рост</option>
+          <option>51</option>
+          <option>52</option>
+          <option>53</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <select class="catalog_filter_top-sort">
+          <option disabled>Цвет</option>
+          <option>Синий</option>
+          <option>Красный</option>
+          <option>Зеленый</option>
+        </select>
       </div>
       </form>
     </div>
