@@ -456,6 +456,8 @@ line-height: 20.833px;
 .navbar-search-icon {background: url(../img/search_icn.png) no-repeat 0; width: 36px; height: 36px;}
 .navbar-search-icon:hover {background: url(../img/search_icn2.png)}
 .search-mobile-form {max-width: 570px; padding: 20px;}
+.catalog_filter_top {display:none; width:100%;}
+.hide {display:none;}
 
 .breadcrumb {background-color: #fff;}
 .breadcrumb-item + .breadcrumb-item::before {content:'>';}
@@ -2632,4 +2634,14 @@ line-height: 1;
     .wrap-items .item:hover .item-quick-buy {display:none;}
     .banner-img {min-height:unset;}
     #carouselbanner .carousel-item {min-height:190px;}
+    .catalog_filter_top {display:block;}
+    .catalog_filter_top-sort {font-size: 12px;padding: 5px;margin: 10px 0;}
+    .catalog_filter_top-filters {display: inline-block;font-size: 12px;padding: 3px 5px;margin: 0 10px;border: 1px solid #abadb3;}
+    .catalog_filter_top-filters a {color:#000; text-decoration:none;}
+    .catalog_filter_top-filters:hover {background-color:#f66541;}
+    #catalog_filter_top {width:80%;}
+    .select-filter-form {padding:20px;}
+    .select-filter-form .form-group {margin:0;}
+    .select-filter-form .title-reviews {color: #000000;font-size: 21px;font-weight: 500;line-height: 1;text-align: left;text-transform: uppercase;font-family: unset;margin: 5px 0;}
+    .sort {display:none;}
 }
