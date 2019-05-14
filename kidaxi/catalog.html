@@ -76,10 +76,7 @@
           </div>
           <div class="catalog_filter_top">
             <select class="catalog_filter_top-sort">
-              <option>По популярности</option>
-              <option>По рейтингу</option>
               <option>По цене</option>
-              <option>По скидке</option>
               <option>По обновлению</option>
             </select>
             <div class="catalog_filter_top-filters"><a href="#" data-fancybox="" data-src="#catalog_filter_top">Фильтры</a></div>
@@ -1259,6 +1256,26 @@
           <option>Зеленый</option>
         </select>
       </div>
+      <div class="form-group">
+        <fieldset class="filter-price">   
+          <div class="price-field">
+            <input type="range"  min="100" max="999999" value="100" id="lower">
+            <input type="range" min="100" max="999999" value="611500" id="upper">
+          </div>
+           <div class="price-wrap">
+            <span class="price-title">Цена </span>
+            <div class="price-wrap-1">
+              <input id="one">
+              <label for="one">р</label>
+            </div>
+            <div class="price-wrap_line">-</div>
+            <div class="price-wrap-2">
+              <input id="two">
+              <label for="two">р</label>
+            </div>
+          </div>
+        </fieldset>
+     </div>
       </form>
     </div>
 
@@ -1269,6 +1286,41 @@
     <script type="text/javascript" src="js/fancybox.js"></script>
     <script src="js/swiper.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+    var lowerSlider = document.querySelector('#lower');
+    var  upperSlider = document.querySelector('#upper');
+
+    document.querySelector('#two').value=upperSlider.value;
+    document.querySelector('#one').value=lowerSlider.value;
+
+    var  lowerVal = parseInt(lowerSlider.value);
+    var upperVal = parseInt(upperSlider.value);
+
+    upperSlider.oninput = function () {
+        lowerVal = parseInt(lowerSlider.value);
+        upperVal = parseInt(upperSlider.value);
+
+        if (upperVal < lowerVal + 4) {
+            lowerSlider.value = upperVal - 4;
+            if (lowerVal == lowerSlider.min) {
+            upperSlider.value = 4;
+            }
+        }
+        document.querySelector('#two').value=this.value
+    };
+
+    lowerSlider.oninput = function () {
+        lowerVal = parseInt(lowerSlider.value);
+        upperVal = parseInt(upperSlider.value);
+        if (lowerVal > upperVal - 4) {
+            upperSlider.value = lowerVal + 4;
+            if (upperVal == upperSlider.max) {
+                lowerSlider.value = parseInt(upperSlider.max) - 4;
+            }
+        }
+        document.querySelector('#one').value=this.value
+    };
+    </script>
 
 
 </body></html>
