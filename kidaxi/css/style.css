@@ -2839,7 +2839,12 @@ line-height: 1;
     .card {border:none;}
     .wrap-all_goods {display:none;}
     .wrap-products-catalog {width:100%;}
-    .wrap-items .item {min-height:470px;}
+	.wrap-items {margin: 0 -15px;}
+    .wrap-items .item {min-height:420px; width: 50%; min-width: 100px;}
+	.item:hover .item-zoom {min-height:470px; min-width: 100px;}
+	.wrap-card-price-right {margin-left: 20px;}
+	.price-wholesale {font-size: 18px;}
+	.price-retail {font-size: 18px;}
     .in-basket {position:relative;}
     .sort-page {flex-direction: column;}
     .wrap-items .item:hover .item-quick-buy {display:none;}
